@@ -1,0 +1,9 @@
+*.zip
+*.html
+*.dbf
+*.prj
+*.shp
+*.shx
+*.Rhistory
+*.RData
+!map_base.RData
