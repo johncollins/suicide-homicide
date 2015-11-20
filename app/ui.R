@@ -8,7 +8,7 @@ shinyUI(pageWithSidebar(
         radioButtons("choice", "",
                      c("Suicide Rates (per 100K)" = "suicide",
                        "Homicide Rates (per 100K)" = "homicide",
-                       "Homicide >= Suicide" = "hom_ge")),
+                       "Homicide >= Suicide" = "homicide >= suicide")),
         h6('Note: Gray indicates that no information was available')
     ),
     mainPanel(

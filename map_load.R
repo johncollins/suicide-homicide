@@ -27,7 +27,8 @@ plot_map1 <- function(variable) {
 plot_map2 <- function(variable) {
     # simpler but no projection
     p <- p21 + 
-        geom_polygon(aes_string('long', 'lat', group='group', fill=variable))
+        geom_polygon(aes_string('long', 'lat', group='group', 
+                                fill=variable))
     plot(p)
 }
 
@@ -49,6 +50,7 @@ get_map1 <- function(variable) {
 }
 
 save(list=c('p11', 'p21', 'plot_map1', 'plot_map2', 
-'get_map1', 'get_map2', 'countries_robin_df'), file='map_base.RData')
+'get_map1', 'get_map2', 'countries_robin_df'), 
+file='app/map_base.RData')
 
 
