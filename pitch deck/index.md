@@ -43,17 +43,21 @@ Users select a view using a radio button. Potential views are:
 
 --- &twocol
 
-## Pros and cons to this app
+## Pros and cons
 
 ***=left
-Pros
+
+### Pros
+
 * Views not registered when switching
 * Not all countries included
 * Good projection
 * Generalizable to arbitrary country data
 
 ***=right
-Cons (or future work)
+
+### Cons (or future work)
+
 * Three different views of the same data
 * Easy to understand
 
